@@ -1,0 +1,56 @@
+body {
+  margin:0;
+}
+a {
+  color:black;
+  text-decoration:none;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin:0;
+  padding:20px;
+  }
+  ol {
+    border-right: 1px solid gray;
+    width: 100px;
+    margin: 0;
+    padding:20px;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    padding-left: 33px;
+    border-bottom: 1px solid gray;
+  }
+  #grid #article{
+    padding-left: 25px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+      border-bottom: none;
+    }
+    ol{
+      border-right:none;
+
+    }
+    h1 {
+      border-bottom:none;
+    }
+   #grid ol{
+     border-bottom: none;
+   }
+  }
+  #beta {
+    padding: 25px;
+  }
+  #majinzoa{
+    padding: 20px;
+  }
